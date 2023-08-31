@@ -1,0 +1,10 @@
+<?php
+$number = 11; 
+$power = 2;   
+
+$squareRoot = sqrt($number);
+$powerResult = pow($number, $power);
+
+echo "Square root of $number: $squareRoot<br>";
+echo "$number raised to the power of $power: $powerResult";
+?>
